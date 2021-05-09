@@ -3,16 +3,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0"> </meta>
-    <title>Registration Form</title>
+    <title>College Registration Form</title>
 
     <style>
       .details{
+        background-image: url("./bg.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid;
-    width: 50%;
-    height: 70vh;
+    width: 100%;
+    height: 100%;
     justify-content: center;
       }
       .name, .phno , .email, .dob{
@@ -40,9 +43,11 @@
 
   </head>
   <body>
+   
      <div class="details">
-       <h3>Registration Form</h3>
-       <form action="./form.php" class="frm" method="POST">
+      <!-- <img src="./bg.jpg" class="img"> -->
+       <h2>College Registration Form</h2>
+       <form action="./index.php" class="frm" method="POST">
          <div class="name">
           <label> Full Name: </label>
           <input type="text" name="fname" id="fname"/><br>
