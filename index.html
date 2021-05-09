@@ -1,0 +1,80 @@
+<html>
+  <head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> </meta>
+    <title>Registration Form</title>
+
+    <style>
+      .details{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: 50%;
+    height: 70vh;
+    justify-content: center;
+      }
+      .name, .phno , .email, .dob{
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    /* height: 50% */
+      }
+      #fname , #phno , #dob , #email{
+        height: 30%;
+      }
+      .gender{
+        display: flex;
+    justify-content: space-between;
+      }
+      label{
+        font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+      }
+      select{
+        width: 50%;
+      }
+    </style>
+
+  </head>
+  <body>
+     <div class="details">
+       <h3>Registration Form</h3>
+       <form action="./index.php" class="frm" method="POST">
+         <div class="name">
+          <label> Full Name: </label>
+          <input type="text" name="fname" id="fname"/><br>
+         </div>
+         <div class="phno">
+          <label> Contact No: </label>
+          <input type="tel" name="phn" id="phno"/><br>
+         </div>
+         <div class="gender">
+           <label >Gender:</label>
+            <input type="radio" name="gender" id="" value="Male">Male<br>
+            <input type="radio" name="gender" id="" value="Female">Female<br>
+          
+        </div><br>
+        <div class="dob">
+          <label>Date Of Birth:</label>
+          <input type="date" name="dateb" id="dob">
+        </div><br>
+         <div class="email">
+          <label> Email Id: </label>
+          <input type="email" name="mail" id="email"/><br>
+         </div>
+         <br>
+         
+        <div class="button">
+          <input type="submit" value="Submit" >
+        
+        </div>
+         
+       
+       </form>
+
+     </div>    
+  </body>
+</html>
