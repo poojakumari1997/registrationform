@@ -1,7 +1,7 @@
 <?php 
 
 
-//  require_once('./vendor/autoload.php');
+ require_once('./vendor/autoload.php');
 $con = mysqli_connect("remotemysql.com","hkc9luRsEi","eLn8JCHMpr","hkc9luRsEi","3306");
 
 if(!$con){

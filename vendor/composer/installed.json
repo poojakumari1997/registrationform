@@ -1,0 +1,64 @@
+{
+    "packages": [
+        {
+            "name": "davidlienhard/database",
+            "version": "1.0.6",
+            "version_normalized": "1.0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidlienhard/database.git",
+                "reference": "49f9fba471ad8626c3552a5efb67347292c3a0aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidlienhard/database/zipball/49f9fba471ad8626c3552a5efb67347292c3a0aa",
+                "reference": "49f9fba471ad8626c3552a5efb67347292c3a0aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "dancryer/php-docblock-checker": "^1",
+                "phpunit/phpunit": "^9",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2021-01-04T07:30:01+00:00",
+            "type": "libary",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "David Lienhard",
+                    "email": "david.lienhard@tourasia.ch",
+                    "homepage": "http://www.tourasia.ch/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "🐘 php library for easy access to databases",
+            "homepage": "https://github.com/davidlienhard/database/",
+            "keywords": [
+                "database",
+                "library",
+                "mysql",
+                "php"
+            ],
+            "support": {
+                "email": "david.lienhard@tourasia.ch",
+                "issues": "https://github.com/davidlienhard/database/issues/",
+                "source": "https://github.com/davidlienhard/database/tree/1.0.6"
+            },
+            "install-path": "../davidlienhard/database"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
