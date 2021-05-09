@@ -8,20 +8,20 @@ if(!$con){
   echo mysqli_connect_error();
   die();
 }
-echo "Database connected";
-$sql = "CREATE TABLE abcd(
-name VARCHAR(30) NOT NULL PRIMARY KEY,
-phone VARCHAR(30) NOT NULL,
-email VARCHAR(40) NOT NULL,
-gender VARCHAR(10) NOT NULL,
-dob VARCHAR(10) NOT NULL
-)";
+// echo "Database connected";
+// $sql = "CREATE TABLE abcd(
+// name VARCHAR(30) NOT NULL PRIMARY KEY,
+// phone VARCHAR(30) NOT NULL,
+// email VARCHAR(40) NOT NULL,
+// gender VARCHAR(10) NOT NULL,
+// dob VARCHAR(10) NOT NULL
+// )";
 
-if(mysqli_query($con, $sql)){
-  echo "Table Created Successfully";
-}else{
-  echo "Error creating table" .mysqli_error($con);
-}
+// if(mysqli_query($con, $sql)){
+//   echo "Table Created Successfully";
+// }else{
+//   echo "Error creating table" .mysqli_error($con);
+// }
 
 $Name = $_POST['fname'];
 $Phone = $_POST['phn'];
