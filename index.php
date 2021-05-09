@@ -52,16 +52,7 @@ $db = $row['dob'];
 echo " Name: {$na} <br> Contact Number: {$ph} <br> Email ID: {$em} <br> Gender: {$gen} <br> Date Of Birth: {$db}";
 
 }
-$qu = "SELECT * FROM abcd";
-$result = mysqli_query($con,$qu) or die(mysqli_error($con));
-while( $row = mysqli_fetch_array($result)){
-  echo "<h3>Your Records are:</h3>";
- $na = $row['name'];
- $ph = $row['phone'];
- $em = $row['email'];
-  $gen = $row['gender'];
-$db = $row['dob'];
-echo " Name: {$na} <br> Contact Number: {$ph} <br> Email ID: {$em} <br> Gender: {$gen} <br> Date Of Birth: {$db}";
+
 
 
 
